@@ -39,7 +39,7 @@ FILES_LIMIT = int(environ.get("FREE_FILES", "10")) #No. of File User Gets In Fre
 
 # Database Settings
 
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jhonwickp1:yRD1YhgiGPiziyyH@cluster0.towfdff.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 FILES_DATABASE_URL = environ.get('FILES_DATABASE_URL', "mongodb+srv://votemo8517_db_user:joBTR0RjbngNdwJ3@cluster0.zront3b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # For Files
 SECOND_FILES_DATABASE_URL = environ.get('SECOND_FILES_DATABASE_URL', "mongodb+srv://kmjc4lad8c_db_user:jEXRvn3Dt1E5fOvz@cluster0.bbypg1m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # 2nd DB For Files
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
