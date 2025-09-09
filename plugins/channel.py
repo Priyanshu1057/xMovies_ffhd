@@ -31,7 +31,7 @@ IGNORE_WORDS = {
     "mal", "malayalam", "eng", "english", "pun", "punjabi", "ben", "bengali", 
     "mar", "marathi", "guj", "gujarati", "urd", "urdu", "kor", "korean", "jpn", 
     "japanese", "nf", "netflix", "sonyliv", "sony", "sliv", "amzn", "prime", 
-    "primevideo", "hotstar", "zee5", "jio", "jhs", "aha", "hbo", "paramount", 
+    "primevideo", "hotstar", "zee5", "jio", "jhs", "aha", "hbo", "paramount", "HDHub4u",
     "apple", "hoichoi", "sunnxt", "viki", "PrivateMovieZ", "toonworld4all", "themoviesboss", "1tamilmv", "tamilblasters",
     "1tamilblasters", "skymovieshd", "extraflix", "hdm2", "moviesmod", "hdhub4u", "mkvcinemas", "primefix", "join", "www", "villa", "tg", "original"
 }
@@ -490,3 +490,4 @@ def generate_movie_message(movie_doc, base_name):
         rating=movie_doc.get("rating", "N/A"),
         search_link=temp.B_LINK
     )
+
