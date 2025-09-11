@@ -43,7 +43,7 @@ async def start(client: Client, message):
 
     def get_main_buttons():
         return [
-            [InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')],],
+            [InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')],
             [
                 InlineKeyboardButton('ཀ ʜᴇʟᴘ', callback_data='features'),
                 InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ ཫ', callback_data='premium')
