@@ -56,7 +56,6 @@ async def start(client: Client, message):
                 InlineKeyboardButton('ཀ ᴏᴡɴᴇʀ', url=f'http://t.me/FilmyflixHD_Supportbot'),
                 InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ཫ', url=f'https://t.me/FilmyflixHD')
             ],
-            [
             [InlineKeyboardButton('◆ ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ ◆', callback_data='earn')]
         ]
 
