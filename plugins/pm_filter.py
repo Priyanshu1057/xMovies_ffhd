@@ -628,15 +628,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
             ],
             [
-                InlineKeyboardButton('• ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
-                InlineKeyboardButton('• ᴜᴘɢʀᴀᴅᴇ', callback_data='premium')
+                InlineKeyboardButton('ཀ ʜᴇʟᴘ', callback_data='features'),
+                InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ ཫ', callback_data='premium')
             ],
             [
-                InlineKeyboardButton('• ᴛᴏᴘ', callback_data='top_search'),
-                InlineKeyboardButton('• ᴀʙᴏᴜᴛ', callback_data='about')
+                InlineKeyboardButton('ཀ ᴛᴏᴘ', callback_data='top_search'),
+                InlineKeyboardButton('ᴀʙᴏᴜᴛ ཫ', callback_data='about') 
             ],
             [
-                InlineKeyboardButton('• ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •', callback_data='earn')]
+                InlineKeyboardButton('ཀ ᴏᴡɴᴇʀ', url=f'http://t.me/FilmyflixHD_Supportbot'),
+                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ཫ', url=f'https://t.me/FilmyflixHD')
+            ],
+            [
+                InlineKeyboardButton('◆ ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ ◆', callback_data='earn')]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -680,8 +684,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "features":
         buttons = [[
-            InlineKeyboardButton('📸 ᴛ-ɢʀᴀᴘʜ', callback_data='telegraph'),
-            InlineKeyboardButton('🆎️ ꜰᴏɴᴛ', callback_data='font')    
+            InlineKeyboardButton('💡 ᴛɪᴘꜱ', url=f'https://telegra.ph/MOVIE-REQUEST-TIPS-08-21'),
+            InlineKeyboardButton('📜 ᴅᴍᴄᴀ', url=f'https://telegra.ph/Disclaimer-08-03-19')    
         ],
         [
           InlineKeyboardButton('🛢 ɢʀᴏᴜᴘ ᴄᴍᴅ', callback_data='grp_cmd'),
@@ -724,8 +728,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             script.ABOUT_TEXT.format(temp.B_LINK),
             reply_markup = InlineKeyboardMarkup(
                 [[
-            InlineKeyboardButton ('🎁 sᴏᴜʀᴄᴇ', callback_data='source'),
-            InlineKeyboardButton ('📖 ᴅᴍᴄᴀ', callback_data='dmca')
+            InlineKeyboardButton ('sᴏᴜʀᴄᴇ', url=f'https://t.me/+sE5BYFSoe9YxNDJl'),
+            InlineKeyboardButton ('ɢʀᴏᴜᴘ', url=f'https://t.me/+MBrxDxONtm5lYzhl')
         ],[
             InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='start')]]
                 ),
