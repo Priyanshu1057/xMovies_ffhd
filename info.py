@@ -22,7 +22,7 @@ API_ID = int(environ.get('API_ID', '26442926'))
 API_HASH = environ.get('API_HASH', 'd091234d2c6e123e6d906d3829eb885b')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1018033649 6725874739').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/Matt_4565")
+USERNAME = environ.get('USERNAME', "http://t.me/FilmyflixHD_Supportbot")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002929455374'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+WIOttJaxEK45M2Nl')
 
