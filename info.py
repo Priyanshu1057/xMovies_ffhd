@@ -29,8 +29,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+WIOttJaxEK45M2
 # Pics 
 
 QR_CODE = environ.get('QR_CODE', 'https://files.catbox.moe/yok8kw.jpg')
-START_IMG = environ.get('START_IMG', 'https://files.catbox.moe/u0kwhq.jpg https://files.catbox.moe/rw12ah.jpg https://files.catbox.moe/5nb9cu.jpg https://files.catbox.moe/w7snao.jpg')
-FSUB_PICS = (environ.get('FSUB_PICS', 'https://files.catbox.moe/7t7ks9.jpg https://files.catbox.moe/jkndux.jpg https://files.catbox.moe/umt55e.jpg')).split() 
+START_IMG = environ.get('START_IMG', 'https://files.catbox.moe/u0kwhq.jpg')
+FSUB_PICS = (environ.get('FSUB_PICS', 'https://files.catbox.moe/umt55e.jpg')).split() 
 
 # File Limit
 
