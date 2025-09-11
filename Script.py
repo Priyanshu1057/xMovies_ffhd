@@ -1,10 +1,10 @@
 class script(object):
     START_TXT = """<b> ʜɪ {} {},
     
-ɪ'ᴍ ᴛʜᴇ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇ ᴀɪ ᴘᴏᴡᴇʀᴅ 🤖 ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ..
-sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ..✨
+ɪ'ᴍ ᴀɴ ᴀɪ-ᴘᴏᴡᴇʀᴇᴅ 🤖 ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ sᴜᴘᴇʀᴘᴏᴡᴇʀs ✨
+ᴛʏᴘᴇ ᴀɴʏ ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ ᴡᴀᴛᴄʜ ᴛʜᴇ ᴍᴀɢɪᴄ ʜᴀᴘᴘᴇɴ.....
 
-<blockquote>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/Silicon_Official'>ѕιℓι¢ση σƒƒ¢ιαℓ</a></blockquote>
+<b><blockquote>➮ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/FilmyflixHD'>FɪʟᴍʏғʟɪxHD Dᴇᴠ</a></blockquote></b>
 </b>"""
     
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
@@ -60,10 +60,8 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
 ⚙️ ʜᴏsᴛᴇᴅ ᴏɴ : <a href="https://www.heroku.com/">ʜᴇʀᴏᴋᴜ</a>
 🍿 ᴅᴀᴛᴀʙᴀsᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
 🐍 ᴄᴏᴅɪɴɢ ᴍᴜsᴄʟᴇs : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ 𝟹</a>
-📚 ʟɪʙʀᴀʀʏ: <a href="https://github.com/Mayuri-Chan/pyrofork">ᴘʏʀᴏꜰᴏʀᴋ</a>
-👨‍💻 ᴏᴡɴᴇʀ : <a href="https://telegram.me/Silicon_Official">ѕιℓι¢ση σƒƒ¢ιαℓ</a>
+👨‍💻 ᴏᴡɴᴇʀ : <a href="https://telegram.me/FilmyflixHD">FɪʟᴍʏғʟɪxHD</a>
 🔧 ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ𝟷.𝟶.𝟷
-💥 ʀᴇᴘᴏ : <a href="https://github.com/Silicon-Developer/Auto-Filter-Bot">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 </b></blockquote>"""
 
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
@@ -142,7 +140,7 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
 ❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}\n\nUploaded By: <a href="https://t.me/Silicon_Bot_Update">Silicon Botz</a></b>"""
+    FILE_CAPTION = """<b><a href="https://t.me/FilmyflixHD">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/FilmyflixHD">[ FilmyflixHD ]</a></b>"""
 
     MOVIE_UPDATE_NOTIFY_TXT = """
 </b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
@@ -165,7 +163,9 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
 ⏰ ᴛɪᴍᴇ : <code>{}</code>
 🌐 ᴛɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
 
-    ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
+    ALRT_TXT = """ʜᴇʟʟᴏ {},
+ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,
+ʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ..."""
 
     OLD_ALRT_TXT = """ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴍʏ ᴏʟᴅ ᴍᴇssᴀɢᴇs..sᴇɴᴅ ᴀ ɴᴇᴡ ʀᴇǫᴜᴇsᴛ.."""
 
@@ -190,9 +190,9 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
     
     PREMIUM_TEXT = """<b><i><blockquote>ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs  ♻️</blockquote>
 
-• 𝟷 ᴡᴇᴇᴋ  -  ₹𝟹𝟶
-• 𝟷 ᴍᴏɴᴛʜ  -  ₹𝟻𝟶
-• 𝟹 ᴍᴏɴᴛʜs  -  ₹𝟷𝟶𝟶
+• 𝟷 ᴡᴇᴇᴋ  -  ₹10
+• 𝟷 ᴍᴏɴᴛʜ  -  ₹30
+• 𝟹 ᴍᴏɴᴛʜs  -  ₹90
 • 𝟼 ᴍᴏɴᴛʜs  -  ₹𝟸𝟶𝟶
 
 •─────•─────────•─────•
@@ -209,7 +209,7 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
 •─────•─────────•─────•
 
 
-✨ ᴜᴘɪ ɪᴅ - <code>pay-to-yash-singh@fam</code>
+✨ ᴜᴘɪ ɪᴅ - <code>pay-to-</code>
 
 ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ  /myplan
 
