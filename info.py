@@ -114,14 +114,14 @@ SEASONS = [("sᴇᴀsᴏɴ 𝟷", "s01"), ("sᴇᴀsᴏɴ 𝟸", "s02"), ("sᴇ�
 
 # Stream Settings 
 
-IS_PREMIUM_STREAM = is_enabled('IS_PREMIUM_STREAM', False) # True To Allow Stream For Premium User Only
+IS_PREMIUM_STREAM = is_enabled('IS_PREMIUM_STREAM', True) # True To Allow Stream For Premium User Only
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002352648999") # Channel Where Files sent For stream
 if len(BIN_CHANNEL) == 0:
     print('Error BIN_CHANNEL is missing, exiting now')
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://efficient-greer-silicon-develr09-a7dbfae3.koyeb.app/") #App URL Where you deployed
+URL = environ.get("URL", "https://elegant-stefa-dfghy-cbbbd2c0.koyeb.app/") #App URL Where you deployed
 if len(URL) == 0:
     print('error URL is missing, exiting now')
     exit()
