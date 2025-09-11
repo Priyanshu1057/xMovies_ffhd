@@ -1,7 +1,7 @@
-import aiohttp, time, pytz
+import aiohttp, pytz, asyncio, logging
 from database.extra_db import silicondb
 from asyncio import sleep 
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, time
 from database.users_chats_db import db
 from info import LOG_CHANNEL, URL
 from pyrogram.types import BotCommand
@@ -86,7 +86,7 @@ async def reset_file_limits_daily():
         time_diff = (target_datetime - now).total_seconds()
         await asyncio.sleep(time_diff)
         silicondb.reset_all_file_limits()
-        logging.info("Files count reset successfully")
+        print("Files count reset successfully")
 
 async def keep_alive():
     async with aiohttp.ClientSession() as session:
