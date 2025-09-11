@@ -43,15 +43,20 @@ async def start(client: Client, message):
 
     def get_main_buttons():
         return [
-            [InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')],
+            [InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')],],
             [
                 InlineKeyboardButton('ཀ ʜᴇʟᴘ', callback_data='features'),
-                InlineKeyboardButton('ཫ ᴜᴘɢʀᴀᴅᴇ', callback_data='premium')
+                InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ ཫ', callback_data='premium')
             ],
             [
                 InlineKeyboardButton('ཀ ᴛᴏᴘ', callback_data='top_search'),
-                InlineKeyboardButton('ཫ ᴀʙᴏᴜᴛ', callback_data='about')
+                InlineKeyboardButton('ᴀʙᴏᴜᴛ ཫ', callback_data='about') 
             ],
+            [
+                InlineKeyboardButton('ཀ ᴏᴡɴᴇʀ', url=f'http://t.me/FilmyflixHD_Supportbot'),
+                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ཫ', url=f'https://t.me/FilmyflixHD')
+            ],
+            [
             [InlineKeyboardButton('◆ ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ ◆', callback_data='earn')]
         ]
 
