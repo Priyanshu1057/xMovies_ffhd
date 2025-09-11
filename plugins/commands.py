@@ -45,14 +45,14 @@ async def start(client: Client, message):
         return [
             [InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')],
             [
-                InlineKeyboardButton('• ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
-                InlineKeyboardButton('• ᴜᴘɢʀᴀᴅᴇ', callback_data='premium')
+                InlineKeyboardButton('ཀ ʜᴇʟᴘ', callback_data='features'),
+                InlineKeyboardButton('ཫ ᴜᴘɢʀᴀᴅᴇ', callback_data='premium')
             ],
             [
-                InlineKeyboardButton('• ᴛᴏᴘ', callback_data='top_search'),
-                InlineKeyboardButton('• ᴀʙᴏᴜᴛ', callback_data='about')
+                InlineKeyboardButton('ཀ ᴛᴏᴘ', callback_data='top_search'),
+                InlineKeyboardButton('ཫ ᴀʙᴏᴜᴛ', callback_data='about')
             ],
-            [InlineKeyboardButton('• ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •', callback_data='earn')]
+            [InlineKeyboardButton('◆ ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ ◆', callback_data='earn')]
         ]
 
     if len(message.command) == 2 and data.startswith('getfile'):
