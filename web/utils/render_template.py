@@ -12,7 +12,7 @@ watch_tmplt = """
   <meta property="og:image" content="https://i.ibb.co/M8S0Zzj/live-streaming.png" itemprop="thumbnailUrl">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Premium Filmax Player</title>
+  <title>FilmyflixHD player</title>
 
   <!-- Fonts & Icons -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
@@ -436,16 +436,16 @@ watch_tmplt = """
           </div>
           
           <div class="copyright">
-            <p>This code was developed by <strong>Silicon Developer</strong> and is protected under copyright law.</p>
-            <p>© 2025 Filmax Player. All rights reserved.</p>
+            <p>This code was developed by <strong>FilmyflixHD dev</strong> and is protected under copyright law.</p>
+            <p>© 2025 FilmyflixHD. All rights reserved.</p>
           </div>
           
           <div class="social-links">
-            <a href="https://t.me/Silicon_Bot_Update" class="social-link" target="_blank">
+            <a href="https://t.me/FilmyflixHD" class="social-link" target="_blank">
               <i class="fab fa-telegram"></i>
             </a>
-            <a href="https://github.com/Silicon-Developer" class="social-link" target="_blank">
-              <i class="fab fa-github"></i>
+            <a href="http://t.me/FilmyflixHD_Supportbot" class="social-link" target="_blank">
+              <i class="fab fa-support"></i>
             </a>
             <a href="https://twitter.com" class="social-link" target="_blank">
               <i class="fab fa-twitter"></i>
